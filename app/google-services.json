@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "333469281158",
+    "project_id": "kitabbae-b9d9a",
+    "storage_bucket": "kitabbae-b9d9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333469281158:android:9633f024bc635c35861a07",
+        "android_client_info": {
+          "package_name": "com.sheetal.kitabbae"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333469281158-bk5iljij3q1bdiciotqr02j56rfqac80.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sheetal.kitabbae",
+            "certificate_hash": "1bbc3b0ba3b9589436a811a1dad4f0eb9c392436"
+          }
+        },
+        {
+          "client_id": "333469281158-li8m6sl2g3ja4gbp40cdd9ftqj87o11k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAghd8KeQMu2VULH_06TuOCQTk0F9oWg-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333469281158-li8m6sl2g3ja4gbp40cdd9ftqj87o11k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

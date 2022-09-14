@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/appbg1"
+    android:orientation="vertical">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/splash_img"
+        android:layout_width="match_parent"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:src="@drawable/splash"
+        android:elevation="15dp"
+        tools:ignore="MissingConstraints" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    >
+    <Button
+        android:id="@+id/donate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded"
+        android:fontFamily="@font/baloo_thambi"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Donate"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/receive"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Receive"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo_thambi"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Logout"
+        android:background="@drawable/rounded"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

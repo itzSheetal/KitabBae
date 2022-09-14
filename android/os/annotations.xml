@@ -1,0 +1,6 @@
+<root>
+    <item
+        name='android.os.Binder void setWorkSourceProvider(com.android.internal.os.BinderInternal.WorkSourceProvider) 0'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

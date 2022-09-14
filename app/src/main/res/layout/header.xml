@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@drawable/appbg"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/nav_profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profile"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="1dp" />
+
+    <TextView
+        android:id="@+id/nav_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Full Name"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/nav_useremail"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="example@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:paddingLeft="5dp"
+        />
+    <TextView
+        android:id="@+id/nav_phoneno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="5dp"
+        android:text="Phone No."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+
+
+
+
+
+
+
+</LinearLayout>
+

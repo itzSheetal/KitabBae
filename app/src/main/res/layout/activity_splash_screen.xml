@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashbg"
+    tools:context=".SplashScreenActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/bd_title"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/charmonman_bold"
+        android:gravity="center"
+        android:text="Kitab - Bae"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/splash_img"
+        android:layout_width="match_parent"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center"
+        android:src="@drawable/splash"
+        android:elevation="15dp"
+        tools:ignore="MissingConstraints" />
+    
+
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">KitabBae</string>
+
+    <string name="navigation_drawer_open">Open Navigation drawer</string>
+    <string name="navigation_drawer_close">Close Navigation drawer</string>
+    <string-array name="city">
+        <item>Select your City</item>
+        <item>Mumbai</item>
+        <item>Delhi</item>
+        <item>Chennai</item>
+        <item>Kolkata</item>
+    </string-array>
+
+    <string-array name="bookCategory">
+        <item>Mention the Category</item>
+        <item>Electronics</item>
+        <item>Communication</item>
+        <item>Computing</item>
+        <item>Chemical</item>
+        <item>Mechanical</item>
+        <item>Civil</item>
+        <item>Science</item>
+        <item>Mathematics</item>
+        <item>Commerce</item>
+        <item>Arts</item>
+        <item>Language</item>
+        <item>Philosophy</item>
+        <item>Mythology</item>
+        <item>Fictional</item>
+    </string-array>
+
+</resources>
